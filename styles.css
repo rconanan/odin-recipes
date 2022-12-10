@@ -1,6 +1,11 @@
+body {
+  font-family: "Times New Roman", Times, sans-serif;
+  background-color: #d4a373;
+}
+
 .heading-primary {
   font-size: 48px;
-  color: rgb(66, 42, 42);
+  color: #faedcd;
   text-align: center;
 }
 
@@ -8,4 +13,24 @@
   text-transform: uppercase;
   font-size: 38px;
   text-align: center;
+}
+
+.recipes-list {
+  font-size: 28px;
+}
+
+.banana-loaf-img,
+.caesar-salad-img,
+.chicken-adobo-img {
+  height: auto;
+  width: 500px;
+  text-align: center;
+}
+
+.heading-recipes-primary {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 54px;
+  color: #faedcd;
 }
